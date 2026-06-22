@@ -1,0 +1,45 @@
+<svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFE3ED"/>
+      <stop offset="100%" stop-color="#FFF6F8"/>
+    </radialGradient>
+    <linearGradient id="heartGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8FAE"/>
+      <stop offset="100%" stop-color="#E0457B"/>
+    </linearGradient>
+    <linearGradient id="heartGradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9D7A"/>
+      <stop offset="100%" stop-color="#D14D39"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="160" cy="160" r="155" fill="url(#bgGlow)"/>
+
+  <!-- small floating hearts -->
+  <path d="M60 60 C 56 52, 45 52, 43 62 C 41 72, 52 78, 60 86 C 68 78, 79 72, 77 62 C 75 52, 64 52, 60 60 Z" fill="#FFC2D4" opacity="0.8"/>
+  <path d="M260 60 C 256 52, 245 52, 243 62 C 241 72, 252 78, 260 86 C 268 78, 279 72, 277 62 C 275 52, 264 52, 260 60 Z" fill="#FFC2D4" opacity="0.7"/>
+  <path d="M260 240 C 256 233, 246 233, 244 242 C 242 251, 251 257, 260 264 C 269 257, 278 251, 276 242 C 274 233, 264 233, 260 240 Z" fill="#FFB8CD" opacity="0.6"/>
+  <path d="M60 240 C 56 233, 46 233, 44 242 C 42 251, 51 257, 60 264 C 69 257, 78 251, 76 242 C 74 233, 64 233, 60 240 Z" fill="#FFB8CD" opacity="0.6"/>
+
+  <!-- left heart (E) -->
+  <g transform="translate(48,92)">
+    <path d="M70 30 C 61 6, 18 6, 9 34 C 0 64, 36 92, 70 118 C 104 92, 140 64, 131 34 C 122 6, 79 6, 70 30 Z"
+          fill="url(#heartGradLeft)"/>
+    <ellipse cx="44" cy="38" rx="11" ry="6" fill="#FFFFFF" opacity="0.35"/>
+  </g>
+
+  <!-- right heart (A) -->
+  <g transform="translate(142,92)">
+    <path d="M70 30 C 61 6, 18 6, 9 34 C 0 64, 36 92, 70 118 C 104 92, 140 64, 131 34 C 122 6, 79 6, 70 30 Z"
+          fill="url(#heartGradRight)"/>
+    <ellipse cx="44" cy="38" rx="11" ry="6" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+
+  <!-- initials -->
+  <text x="103" y="183" text-anchor="middle" font-family="'Signika', sans-serif" font-size="38" font-weight="700" fill="#FFFFFF">E</text>
+  <text x="217" y="183" text-anchor="middle" font-family="'Signika', sans-serif" font-size="38" font-weight="700" fill="#FFFFFF">A</text>
+
+  <!-- caption -->
+  <text x="160" y="270" text-anchor="middle" font-family="'Signika', sans-serif" font-size="20" fill="#C2456E">Forever &amp; Always</text>
+</svg>
